@@ -1,0 +1,21 @@
+.site-map{
+    margin: 150px 0;
+}
+.intro{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.intro-item{
+    padding: 6px 0;
+}
+.intro-item a{
+    display: block;
+    font-size: 1.4rem;
+    color: #000;
+    font-weight: 600;
+    transition: all .3s ease;
+}
+.intro-item:hover a{
+    color: #fe4c50;
+}

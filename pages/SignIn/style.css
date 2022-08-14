@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.SignIn{
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 750px;
+    border: 4px solid #fff;
+    background:rgba(243, 239, 239, 0.999);
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.SignIn .close{
+    position: absolute;
+    font-size: 35px;
+    top: -15px;
+    right: -15px;
+    color: #607d8b;
+}
+.SignIn .imgFashtion{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    
+}
+.SignIn .imgFashtion:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    mix-blend-mode: screen;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+}
+.SignIn .imgFashtion img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+ .SignIn .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.SignIn .content .formSignIn{
+    width: 80%;
+
+}
+.SignIn .content .formSignIn h2{
+    color: #607d8b;
+    font-weight: 600;
+    font-size:2em;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    border-bottom: 4px solid #fe4c50; 
+    display: inline-block;
+    letter-spacing: 1px;
+   margin-left: 100px;
+}
+.input-group{
+    margin-bottom: 10px;
+}
+.SignIn .content .formSignIn .inputSignIn{
+    margin-bottom: 4px;
+}
+.SignIn .content .formSignIn .inputSignIn span{
+    font-size: 16px;
+    margin-left: 37px;
+    margin-bottom: 0px;
+    display: inline-block;
+    color: #607db8 ;
+    font-weight: 300;
+    letter-spacing: 1px;
+} 
+.SignIn .content .formSignIn .inputSignIn .iconuser{
+    font-size: 25px;
+    position: absolute;
+    top: -4px;
+    left: 10px;
+    display: inline-block;
+    color: #607db8 ;
+    font-weight: 300;
+    letter-spacing: 1px;
+} 
+.SignIn .content .formSignIn .inputSignIn #kt1,#kt2{
+    color: red;
+    top: 4px;
+    font-size: 12px;
+}
+.SignIn .content .formSignIn .inputSignIn input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #607db8;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #607db8;
+    background: transparent;
+    border-radius: 30px;
+}
+.SignIn .content .formSignIn .inputSignIn input[type="text"]:focus{
+    border: 1px solid #fe4c50;
+}
+.SignIn .content .formSignIn .inputSignIn input[type="password"]:focus{
+    border: 1px solid #fe4c50;
+}
+.SignIn .content .formSignIn .inputSignIn #eye{
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    font-size: 25px;
+}
+.SignIn .content .formSignIn .inputSignIn input[type="submit"]
+{
+    background: #fe4c50;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    height: 3em;
+    transition: all 0.5s;
+     border: 1px solid ;
+}
+.SignIn .content .formSignIn .inputSignIn input[type="submit"]:hover
+{
+    background: #ff45b8;
+   
+    border-color: #0000ff;
+}
+.SignIn .content .formSignIn .inputSignIn {
+    position: relative;
+}
+
+.SignIn .content .formSignIn .checkSignIn{
+    margin-bottom:10px ;
+    color: #607d8b;
+    font-weight: 400;
+    font-size: 14px;
+}
+.SignIn .content .formSignIn .inputSignIn p{
+    color: #607db8;
+    text-align: center;
+}
+.SignIn .content .formSignIn .inputSignIn p a{
+    color: #e91e63;
+    font-weight: 600;
+}
+.SignIn .content h3{
+    color: #607d8b;
+    text-align: center;
+    margin: 60px 0 10px;
+    font-weight: 500;
+}
+.SignIn .content ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.SignIn .content ul li{
+    width: 33.3333%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SignIn .content ul li .icon{
+    font-size: 45px;
+    border-radius: 50%;
+    transition: all 0.5s ;
+}
+.SignIn .content ul li .icon:hover{
+    color: #e91e63;
+}
+@media (max-width: 780px)
+{
+    .SignIn .imgFashtion{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .SignIn .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 90%;
+        position: absolute;
+        background-color: rgba(243, 239, 239, 0.999);
+        margin: 30px 35px;
+        border-radius:20px ;
+        z-index: 1;
+    }
+    .SignIn .content .formSignIn h2{
+        display: block;
+        text-align: center;
+        margin-left: 0;
+        border-bottom: 2px solid #fe4c50;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .SignIn .content .formSignIn>h3{
+        margin-top: 15px;
+    }
+}
