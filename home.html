@@ -2,736 +2,611 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- reset css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
-    <!-- boostrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-    <!-- boostrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-    <!-- CSS -->
-    <link rel="stylesheet" href="./assets/css/base.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- reset css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <!-- boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <!-- boostrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/base.css" />
 
-    <link rel="stylesheet" href="./assets/css/grid.css" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="stylesheet" href="./assets/css/home.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css" />
-    <!-- aos animation  -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="./assets/css/grid.css" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="stylesheet" href="./assets/css/home.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css" />
+  <!-- aos animation  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <!-- embeded icon in font download -->
-    <link rel="stylesheet" href="../assets/font/fontawesome-free-6.0.0-web/css/all.min.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- font chữ -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap" rel="stylesheet" />
-    <!-- js file -->
+  <!-- embeded icon in font download -->
+  <link rel="stylesheet" href="./../assets/font/fontawesome-free-6.0.0-web/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- font chữ -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap"
+    rel="stylesheet" />
+  <!-- js file -->
 
-    <title>Ecommerce Shopping </title>
+  <title>Ecommerce Shopping </title>
 </head>
 
 <body>
-    <div class="super-container">
-        <!-- HEADER -->
-        <header class="trans-300">
-            <!-- top nav -->
-            <div class="top-nav">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="top-nav">
-                                <div class="top-nav-left">
-                                    FREE SHIPPING ON ALL U.S ORDERS OVER $50
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 text-right">
-                            <div class="top-nav-right">
-                                <ul class="top-nav-menu">
-                                    <li class="currency">
-                                        <a href="#" rel="noopener noreferrer">USD
-                        <i class="fa-solid fa-angle-down"></i>
-                      </a>
-
-                                        <ul class="currency-selection">
-                                            <li>
-                                                <a href="#" rel="noopener noreferrer">CAD</a
-                          >
-                        </li>
-                        <li>
-                          <a href="#"  rel="noopener noreferrer"
-                            >UAD</a
-                          >
-                        </li>
-                        <li>
-                          <a href="#"  rel="noopener noreferrer"
-                            >EUR</a
-                          >
-                        </li>
-                        <li>
-                          <a href="#"  rel="noopener noreferrer"
-                            >GDB</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="language">
-                      <a href="#"  rel="noopener noreferrer"
-                        >English
-                        <i class="fa-solid fa-angle-down"></i>
-                      </a>
-                                                <ul class="language-selection">
-                                                    <li>
-                                                        <a href="#" rel="noopener noreferrer">French</a
-                          >
-                        </li>
-                        <li>
-                          <a href="#"  rel="noopener noreferrer"
-                            >Italian</a
-                          >
-                        </li>
-                        <li>
-                          <a href="#"  rel="noopener noreferrer"
-                            >Germen</a
-                          >
-                        </li>
-                        <li>
-                          <a href="#"  rel="noopener noreferrer"
-                            >Spanish</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="account">
-                      <a href="#"  rel="noopener noreferrer"
-                        >My account
-                        <i class="fa-solid fa-angle-down"></i>
-                      </a>
-                                                        <ul class="account-selection">
-                                                            <li>
-                                                                <a href="./pages/SignIn/login.html" rel="noopener noreferrer">
-                                                                    <i class="fa fa-sign-in"></i> Sign in
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="./pages/SignUp/register.html" rel="noopener noreferrer">
-                                                                    <i class="fa fa-user-plus"></i>Register
-                                                                </a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- main nav -->
-            <div class="main-nav-container">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="logo-container">
-                                <a href="./pages/shop/shop.html" rel="noopener noreferrer">
-                    COLO
-                    <span>SHOP</span>
-                  </a>
-                            </div>
-                            <nav class="nav-bar">
-                                <ul class="nav-bar-menu">
-                                    <li>
-                                        <a href="#" rel="noopener noreferrer">home</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        href="./pages/shop/shop.html"
-                        
-                        rel="noopener noreferrer"
-                        >shop</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        href="./pages/siteMap/siteMap.html"
-                        
-                        rel="noopener noreferrer"
-                        >site map</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        href="./pages/aboutUs/index.html"
-                        
-                        rel="noopener noreferrer"
-                        >About us</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        href="./pages/blog/blog1/index.html"
-                        
-                        rel="noopener noreferrer"
-                        >Blog</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        href="./pages/contactUs/contactUs.html"
-                        
-                        rel="noopener noreferrer"
-                        >contact</a
-                      >
-                    </li>
-                  </ul>
-                  <ul class="nav-bar-user">
-                    <li>
-                      <a href="./pages/shop/shop.html" rel="noopener noreferrer">
-                        <i class="fa fa-search"></i>
-                      </a>
-                                    </li>
-                                    <li>
-                                        <a href="./pages/user/user.html" rel="noopener noreferrer">
-                                            <i class="fa fa-user"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="./pages/Cart/cart.html" rel="noopener noreferrer">
-                                            <i class="fa fa-shopping-cart cart-Icon">
-                          <span class="checkout_items" id="checkout_items"
-                            >0</span
-                          >
-                        </i>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <div class="hamburder_container">
-                                    <i class="fas fa-bars"></i>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- hamburger-menu -->
-        <div class="hamburget-menu ">
-            <div class="hamburger-close">
-                <i class="fas fa-times"></i>
-            </div>
-            <div class="hamburger-menu-content text-right">
-                <ul class="hamburger-menu">
-                    <li class="menu-item has-children">
-                        <a href="#" rel="noopener noreferrer">USD
-              <i class="fa-solid fa-angle-down"></i>
-            </a>
-
-                        <ul class="menu_selection">
-                            <li>
-                                <a href="#" rel="noopener noreferrer">CAD</a
-                >
-              </li>
-              <li>
-                <a href="#"  rel="noopener noreferrer"
-                  >UAD</a
-                >
-              </li>
-              <li>
-                <a href="#"  rel="noopener noreferrer"
-                  >EUR</a
-                >
-              </li>
-              <li>
-                <a href="#"  rel="noopener noreferrer"
-                  >GDB</a
-                >
-              </li>
-            </ul>
-            </li>
-            <li class="menu-item has-children">
-              <a href="#"  rel="noopener noreferrer"
-              >English
-              <i class="fa-solid fa-angle-down"></i>
-            </a>
-                                <ul class="menu_selection">
-                                    <li>
-                                        <a href="#" rel="noopener noreferrer">French</a
-                >
-              </li>
-              <li>
-                <a href="#"  rel="noopener noreferrer"
-                  >Italian</a
-                >
-              </li>
-              <li>
-                <a href="#"  rel="noopener noreferrer"
-                  >Germen</a
-                >
-              </li>
-              <li>
-                <a href="#"  rel="noopener noreferrer"
-                  >Spanish</a
-                >
-              </li>
-            </ul>
-            </li>
-            <li class="menu-item has-children">
-              <a href="#"  rel="noopener noreferrer"
-                        >My account
-                        <i class="fa-solid fa-angle-down"></i>
-              </a>
-                                        <ul class="menu_selection">
-                                            <li>
-                                                <a href="./pages/SignIn/login.html" rel="noopener noreferrer">
-                                                    <i class="fa fa-sign-in"></i> Sign in
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="./pages/SignUp/register.html" rel="noopener noreferrer">
-                                                    <i class="fa fa-user-plus"></i>Register
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item"> <a href="#" rel="noopener noreferrer">home</a
-            ></li>
-            <li class="menu-item"> <a
-              href="./pages/shop/shop.html"
-              
-              rel="noopener noreferrer"
-              >shop</a
-            ></li>
-            <li class="menu-item">
-              <a
-              href="./pages/siteMap/siteMap.html"
-              
-              rel="noopener noreferrer"
-              >site map</a
-            >
-            </li>
-            <li class="menu-item">
-              <a
-              href="./pages/aboutUs/index.html"
-              
-              rel="noopener noreferrer"
-              >about us</a
-            >
-            </li>
-            <li class="menu-item">
-              <a
-              href="./pages/blog/blog1/index.html"
-              
-              rel="noopener noreferrer"
-              >blog</a
-            >
-            </li>
-            <li class="menu-item">
-              <a
-              href="./pages/contactUs/contactUs.html"
-              
-              rel="noopener noreferrer"
-              >contact</a
-            >
-            </li>
-           
-          </ul>
-        </div>
-      </div>
-      <!-- MAIN - SLIDER -->
-      <div class="main_slider">
-        <div
-          id="carouselExampleControls"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                class="d-block w-100"
-                src="https://preview.colorlib.com/theme/coloshop/images/xslider_1.jpg.pagespeed.ic.V9ovSIY03c.webp"
-                alt="First slide"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                class="d-block w-100"
-                src="https://www.chanel.com/images/q_auto,f_auto,fl_lossy,dpr_auto/w_2560/FSH-1645195952123-00header.jpg"
-                alt="Second slide"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                class="d-block w-100"
-                src="https://ananas.vn/wp-content/uploads/Banner_Clothing.jpg"
-                alt="Third slide"
-              />
-            </div>
-          </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselExampleControls"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-                                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Next</span>
-                                        </a>
-                                        <div class="container introduce">
-                                            <div class="row fill_height">
-                                                <div class="col">
-                                                    <div class="main_slider_content">
-                                                        <h6>SPRING / SUMMER COLLECTION 2022</h6>
-                                                        <h1>
-                                                            Get up to 30% Off <br /> New Arivals
-                                                        </h1>
-                                                        <div class="btn-shopnow">
-                                                            <a href="./pages/shop/shop.html">SHOP NOW</a
-                    >
-                  </div>
-                  <!-- <button type="button" class="btn btn-danger">SHOP NOW</button> -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- BANNER -->
-      <div class="banner">
+  <div class="super-container">
+    <!-- HEADER -->
+    <header class="trans-300">
+      <!-- top nav -->
+      <div class="top-nav">
         <div class="container">
           <div class="row">
-            <div class="col-md-4 col-banner" data-aos="zoom-in-up" data-aos-duration="1000">
-              <div class="banner_item banner1">
-                <div class="banner_catagory">
-                  <a href="#"  rel="noopener noreferrer"
-                    >women's</a
-                  >
+            <div class="col-md-6">
+              <div class="top-nav">
+                <div class="top-nav-left">
+                  FREE SHIPPING ON ALL U.S ORDERS OVER $50
                 </div>
               </div>
             </div>
-            <div class="col-md-4 col-banner"  data-aos="zoom-in-up" data-aos-duration="1000">
-              <div class="banner_item banner2">
-                <div class="banner_catagory">
-                  <a href="#"  rel="noopener noreferrer"
-                    >accessories's</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-banner"  data-aos="zoom-in-up" data-aos-duration="1000">
-              <div class="banner_item banner3">
-                <div class="banner_catagory">
-                  <a href="#"  rel="noopener noreferrer"
-                    >man's</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+            <div class="col-md-6 text-right">
+              <div class="top-nav-right">
+                <ul class="top-nav-menu">
+                  <li class="currency">
+                    <a href="#" rel="noopener noreferrer">USD
+                      <i class="fa-solid fa-angle-down"></i>
+                    </a>
 
-      <!-- NEW ARRIVAL -->
-      <div class="new_arrivals">
-        <div class="container">
-          <div class="row">
-            <div class="col text-center">
-              <div class="section-title">
-                <h2>New Arivals</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div class="col text-center">
-              <div class="new_arrivals_sort">
-                <ul class="arrivals-sortting">
-                  <li class="btn-arrival all_sort active" data-title="#ALL">ALL</li>
-                  <li class="btn-arrival women_sort" data-title="#WOMEN">WOMEN'S</li>
-                  <li class="btn-arrival accessories_sort " data-title="#ACCESSORIES">
-                    ACCESSORIES
+                    <ul class="currency-selection">
+                      <li>
+                        <a href="#" rel="noopener noreferrer">CAD</a>
+                      </li>
+                      <li>
+                        <a href="#" rel="noopener noreferrer">UAD</a>
+                      </li>
+                      <li>
+                        <a href="#" rel="noopener noreferrer">EUR</a>
+                      </li>
+                      <li>
+                        <a href="#" rel="noopener noreferrer">GDB</a>
+                      </li>
+                    </ul>
                   </li>
-                  <li class="btn-arrival men_sort" data-title="#MEN">MEN'S</li>
+                  <li class="language">
+                    <a href="#" rel="noopener noreferrer">English
+                      <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                    <ul class="language-selection">
+                      <li>
+                        <a href="#" rel="noopener noreferrer">French</a>
+                      </li>
+                      <li>
+                        <a href="#" rel="noopener noreferrer">Italian</a>
+                      </li>
+                      <li>
+                        <a href="#" rel="noopener noreferrer">Germen</a>
+                      </li>
+                      <li>
+                        <a href="#" rel="noopener noreferrer">Spanish</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="account">
+                    <a href="#" rel="noopener noreferrer">My account
+                      <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                    <ul class="account-selection">
+                      <li>
+                        <a href="./pages/SignIn/login.html" rel="noopener noreferrer">
+                          <i class="fa fa-sign-in"></i> Sign in
+                        </a>
+                      </li>
+                      <li>
+                        <a href="./pages/SignUp/register.html" rel="noopener noreferrer">
+                          <i class="fa fa-user-plus"></i>Register
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <!-- main nav -->
+      <div class="main-nav-container">
+        <div class="container">
           <div class="row">
-            <div class="col">
-              <div class="product-grid">
-                <div class="row-product">
-                  <!--  -->
-                      
-                  <!--  -->
-                </div>
+            <div class="col-lg-12">
+              <div class="logo-container">
+                <a href="./pages/shop/shop.html" rel="noopener noreferrer">
+                  COLO
+                  <span>SHOP</span>
+                </a>
               </div>
+              <nav class="nav-bar">
+                <ul class="nav-bar-menu">
+                  <li>
+                    <a href="#" rel="noopener noreferrer">home</a>
+                  </li>
+                  <li>
+                    <a href="./pages/shop/shop.html" rel="noopener noreferrer">shop</a>
+                  </li>
+                  <li>
+                    <a href="./pages/siteMap/siteMap.html" rel="noopener noreferrer">site map</a>
+                  </li>
+                  <li>
+                    <a href="./pages/aboutUs/index.html" rel="noopener noreferrer">About us</a>
+                  </li>
+                  <li>
+                    <a href="./pages/blog/blog1/index.html" rel="noopener noreferrer">Blog</a>
+                  </li>
+                  <li>
+                    <a href="./pages/contactUs/contactUs.html" rel="noopener noreferrer">contact</a>
+                  </li>
+                </ul>
+                <ul class="nav-bar-user">
+                  <li>
+                    <a href="./pages/shop/shop.html" rel="noopener noreferrer">
+                      <i class="fa fa-search"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./pages/user/user.html" rel="noopener noreferrer">
+                      <i class="fa fa-user"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./pages/Cart/cart.html" rel="noopener noreferrer">
+                      <i class="fa fa-shopping-cart cart-Icon">
+                        <span class="checkout_items" id="checkout_items">0</span>
+                      </i>
+                    </a>
+                  </li>
+                </ul>
+                <div class="hamburder_container">
+                  <i class="fas fa-bars"></i>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- hamburger-menu -->
+    <div class="hamburget-menu ">
+      <div class="hamburger-close">
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="hamburger-menu-content text-right">
+        <ul class="hamburger-menu">
+          <li class="menu-item has-children">
+            <a href="#" rel="noopener noreferrer">USD
+              <i class="fa-solid fa-angle-down"></i>
+            </a>
+
+            <ul class="menu_selection">
+              <li>
+                <a href="#" rel="noopener noreferrer">CAD</a>
+              </li>
+              <li>
+                <a href="#" rel="noopener noreferrer">UAD</a>
+              </li>
+              <li>
+                <a href="#" rel="noopener noreferrer">EUR</a>
+              </li>
+              <li>
+                <a href="#" rel="noopener noreferrer">GDB</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item has-children">
+            <a href="#" rel="noopener noreferrer">English
+              <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <ul class="menu_selection">
+              <li>
+                <a href="#" rel="noopener noreferrer">French</a>
+              </li>
+              <li>
+                <a href="#" rel="noopener noreferrer">Italian</a>
+              </li>
+              <li>
+                <a href="#" rel="noopener noreferrer">Germen</a>
+              </li>
+              <li>
+                <a href="#" rel="noopener noreferrer">Spanish</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item has-children">
+            <a href="#" rel="noopener noreferrer">My account
+              <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <ul class="menu_selection">
+              <li>
+                <a href="./pages/SignIn/login.html" rel="noopener noreferrer">
+                  <i class="fa fa-sign-in"></i> Sign in
+                </a>
+              </li>
+              <li>
+                <a href="./pages/SignUp/register.html" rel="noopener noreferrer">
+                  <i class="fa fa-user-plus"></i>Register
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item"> <a href="#" rel="noopener noreferrer">home</a></li>
+          <li class="menu-item"> <a href="./pages/shop/shop.html" rel="noopener noreferrer">shop</a></li>
+          <li class="menu-item">
+            <a href="./pages/siteMap/siteMap.html" rel="noopener noreferrer">site map</a>
+          </li>
+          <li class="menu-item">
+            <a href="./pages/aboutUs/index.html" rel="noopener noreferrer">about us</a>
+          </li>
+          <li class="menu-item">
+            <a href="./pages/blog/blog1/index.html" rel="noopener noreferrer">blog</a>
+          </li>
+          <li class="menu-item">
+            <a href="./pages/contactUs/contactUs.html" rel="noopener noreferrer">contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <!-- MAIN - SLIDER -->
+    <div class="main_slider">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./assets/image/banner1.png" alt="First slide" />
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100"
+              src="https://www.chanel.com/images/q_auto,f_auto,fl_lossy,dpr_auto/w_2560/FSH-1645195952123-00header.jpg"
+              alt="Second slide" />
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://ananas.vn/wp-content/uploads/Banner_Clothing.jpg"
+              alt="Third slide" />
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <div class="container introduce">
+          <div class="row fill_height">
+            <div class="col">
+              <div class="main_slider_content">
+                <h6>SPRING / SUMMER COLLECTION 2022</h6>
+                <h1>
+                  Get up to 30% Off <br /> New Arivals
+                </h1>
+                <div class="btn-shopnow">
+                  <a href="./pages/shop/shop.html">SHOP NOW</a>
+                </div>
+                <!-- <button type="button" class="btn btn-danger">SHOP NOW</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BANNER -->
+    <div class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-banner" data-aos="zoom-in-up" data-aos-duration="1000">
+            <div class="banner_item banner1">
+              <div class="banner_catagory">
+                <a href="#" rel="noopener noreferrer">women's</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-banner" data-aos="zoom-in-up" data-aos-duration="1000">
+            <div class="banner_item banner2">
+              <div class="banner_catagory">
+                <a href="#" rel="noopener noreferrer">accessories's</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-banner" data-aos="zoom-in-up" data-aos-duration="1000">
+            <div class="banner_item banner3">
+              <div class="banner_catagory">
+                <a href="#" rel="noopener noreferrer">man's</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NEW ARRIVAL -->
+    <div class="new_arrivals">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <div class="section-title">
+              <h2>New Arivals</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col text-center">
+            <div class="new_arrivals_sort">
+              <ul class="arrivals-sortting">
+                <li class="btn-arrival all_sort active" data-title="#ALL">ALL</li>
+                <li class="btn-arrival women_sort" data-title="#WOMEN">WOMEN'S</li>
+                <li class="btn-arrival accessories_sort " data-title="#ACCESSORIES">
+                  ACCESSORIES
+                </li>
+                <li class="btn-arrival men_sort" data-title="#MEN">MEN'S</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="product-grid">
+              <div class="row-product">
+                <!--  -->
+
+                <!--  -->
+              </div>
+            </div>
             <!-- </div> -->
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- deal of week -->
+    <div class="deal_of_week">
+      <div class="container align-items-center">
+        <div class="row">
+          <div class="col-lg-6" data-aos="flip-left" data-aos-duration="1500">
+            <div class="deal_of_week-img">
+              <img src="./assets/image/deal_ofthe_week.png.webp" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6 text-right" data-aos="flip-right" data-aos-duration="1500">
+            <div class="deal_of_week-content flex-column align-items-center">
+
+              <div class="Timer">
+                <h1>Deal Of The Week</h1>
+                <div class="containerTime">
+
+                  <div>
+                    <h2>Day</h2>
+                    <p class="day">time</p>
+                  </div>
+
+                  <div>
+                    <h2>hour</h2>
+                    <p class="hour">time</p>
+                  </div>
+
+                  <div>
+                    <h2>minute</h2>
+                    <p class="minute">time</p>
+                  </div>
+
+                  <div>
+                    <h2>second</h2>
+                    <p class="second">time</p>
+                  </div>
+                </div>
+              </div>
+              <div class="btn_show_now deal_btn">
+                <a href="">Shop now</a>
+              </div>
+              <!--  -->
+            </div>
+          </div>
         </div>
       </div>
+    </div>
 
-      <!-- deal of week -->
-      <div class="deal_of_week">
-        <div class="container align-items-center">
-          <div class="row">
-            <div class="col-lg-6" data-aos="flip-left" data-aos-duration="1500">
-              <div class="deal_of_week-img">
-                <img src="./assets/image/deal_ofthe_week.png.webp" alt="" />
+    <!-- benefit -->
+    <div class="benefit" id="benefit">
+      <div class="container">
+        <div class="row benefit_row " data-aos="fade-up" data-aos-anchor-placement="top-center">
+          <div class="col-lg-3 benefit_col">
+            <div class="benefit_item flex-row align-items-center">
+              <div class="benefit_icon">
+                <i class="fa fa-truck"></i>
+              </div>
+              <div class="benefit_content">
+                <h6>Free shipping</h6>
+                <p>Sufered Alteration in Some Form</p>
               </div>
             </div>
-            <div class="col-lg-6 text-right" data-aos="flip-right" data-aos-duration="1500">
-              <div class="deal_of_week-content flex-column align-items-center">
-                
-                 <div class="Timer">
-  <h1>Deal Of The Week</h1>
-  <div class="containerTime">
+          </div>
+          <div class="col-lg-3 benefit_col">
+            <div class="benefit_item flex-row align-items-center">
+              <div class="benefit_icon">
+                <i class="fas fa-money-bill"></i>
+              </div>
+              <div class="benefit_content">
+                <h6>cach on delivery</h6>
+                <p>The Intermet Tend To Repeat</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 benefit_col">
+            <div class="benefit_item flex-row align-items-center">
+              <div class="benefit_icon">
+                <i class="fa fa-undo"></i>
+              </div>
+              <div class="benefit_content">
+                <h6>45 days return</h6>
+                <p>Making it Look Like Readable</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 benefit_col">
+            <div class="benefit_item flex-row align-items-center">
+              <div class="benefit_icon">
+                <i class="fas fa-clock"></i>
 
-    <div>
-      <h2>Day</h2>
-      <p class="day">time</p>
+              </div>
+              <div class="benefit_content">
+                <h6>open all week</h6>
+                <p>08AM - 09PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- latest blog -->
+    <div class="latest_blog">
+      <div class="container">
+        <div class="row ">
+          <div class="col text-center">
+            <div class="section-title">
+              <h2>Latest Blogs</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row blogs_container">
+          <div class="col-lg-4 " data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="blog-item">
+              <div class="lastest_background">
+                <img src="./assets/image/latest1.webp" alt="" srcset="">
+              </div>
+              <div class="blog-content flex-column align-items-center d-flex justify-content-center">
+                <h4 class="blog_title">Here are the trends I see coming fall</h4>
+                <span class="blog_meta">By admin | Apr 05, 2022</span>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-4" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="blog-item">
+              <div class="lastest_background">
+                <img src="./assets/image/latest2.webp" alt="" srcset="">
+              </div>
+              <div class="blog-content flex-column align-items-center d-flex justify-content-center">
+                <h4 class="blog_title">Here are the trends I see coming fall</h4>
+                <span class="blog_meta">By admin | Apr 05, 2022</span>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-4" data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="blog-item">
+              <div class="lastest_background">
+                <img src="./assets/image/latest3.webp" alt="" srcset="">
+              </div>
+              <div class="blog-content flex-column align-items-center d-flex justify-content-center">
+                <h4 class="blog_title">Here are the trends I see coming fall</h4>
+                <span class="blog_meta">By admin | Apr 05, 2022</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div>
-      <h2>hour</h2>
-      <p class="hour">time</p>
+    <!-- Letters -->
+    <div class="newsletter">
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-6">
+            <div
+              class="newsletter_text d-flex flex-column justify-content-center align-items-md-center text-center align-items-lg-center">
+              <h4>Newsletter</h4>
+              <p>Subscribe to our newslettr and get 20% off your first purchase</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <div
+                class="newsletter_text d-flex justify-content-center align-items-md-center text-center align-items-lg-center">
+                <input type="email" id="newsletter_email" placeholder="Your email" required>
+                <button id="newsletter_submit">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div>
-      <h2>minute</h2>
-      <p class="minute">time</p>
-    </div>
-
-    <div>
-      <h2>second</h2>
-      <p class="second">time</p>
-    </div>
-  </div>
-                 </div>
-                <div class="btn_show_now deal_btn">
-                  <a href="">Shop now</a>
-                                                        </div>
-                                                        <!--  -->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+    <!-- footer -->
+    <div class="footer">
+      <div class="footer-widgets-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <div class="footer-menu-area">
+                <ul class="footer-menu">
+                  <li class="menu-item"> <a href="./pages/shop/shop.html" rel="noopener noreferrer">shop</a></li>
+                  <li class="menu-item">
+                    <a href="./pages/siteMap/siteMap.html" rel="noopener noreferrer">site map</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./pages/aboutUs/index.html" rel="noopener noreferrer">about us</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./pages/blog/blog1/index.html" rel="noopener noreferrer">blog</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./pages/contactUs/contactUs.html" rel="noopener noreferrer">contact</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-
-            <!-- benefit -->
-            <div class="benefit" id="benefit">
-                <div class="container">
-                    <div class="row benefit_row " data-aos="fade-up" data-aos-anchor-placement="top-center">
-                        <div class="col-lg-3 benefit_col">
-                            <div class="benefit_item flex-row align-items-center">
-                                <div class="benefit_icon">
-                                    <i class="fa fa-truck"></i>
-                                </div>
-                                <div class="benefit_content">
-                                    <h6>Free shipping</h6>
-                                    <p>Sufered Alteration in Some Form</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 benefit_col">
-                            <div class="benefit_item flex-row align-items-center">
-                                <div class="benefit_icon">
-                                    <i class="fas fa-money-bill"></i>
-                                </div>
-                                <div class="benefit_content">
-                                    <h6>cach on delivery</h6>
-                                    <p>The Intermet Tend To Repeat</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 benefit_col">
-                            <div class="benefit_item flex-row align-items-center">
-                                <div class="benefit_icon">
-                                    <i class="fa fa-undo"></i>
-                                </div>
-                                <div class="benefit_content">
-                                    <h6>45 days return</h6>
-                                    <p>Making it Look Like Readable</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 benefit_col">
-                            <div class="benefit_item flex-row align-items-center">
-                                <div class="benefit_icon">
-                                    <i class="fas fa-clock"></i>
-
-                                </div>
-                                <div class="benefit_content">
-                                    <h6>open all week</h6>
-                                    <p>08AM - 09PM</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- latest blog -->
-            <div class="latest_blog">
-                <div class="container">
-                    <div class="row ">
-                        <div class="col text-center">
-                            <div class="section-title">
-                                <h2>Latest Blogs</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row blogs_container">
-                        <div class="col-lg-4 " data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="1500">
-                            <div class="blog-item">
-                                <div class="lastest_background">
-                                    <img src="./assets/image/latest1.webp" alt="" srcset="">
-                                </div>
-                                <div class="blog-content flex-column align-items-center d-flex justify-content-center">
-                                    <h4 class="blog_title">Here are the trends I see coming fall</h4>
-                                    <span class="blog_meta">By admin | Apr 05, 2022</span>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-4" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-                            <div class="blog-item">
-                                <div class="lastest_background">
-                                    <img src="./assets/image/latest2.webp" alt="" srcset="">
-                                </div>
-                                <div class="blog-content flex-column align-items-center d-flex justify-content-center">
-                                    <h4 class="blog_title">Here are the trends I see coming fall</h4>
-                                    <span class="blog_meta">By admin | Apr 05, 2022</span>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-4" data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="1500">
-                            <div class="blog-item">
-                                <div class="lastest_background">
-                                    <img src="./assets/image/latest3.webp" alt="" srcset="">
-                                </div>
-                                <div class="blog-content flex-column align-items-center d-flex justify-content-center">
-                                    <h4 class="blog_title">Here are the trends I see coming fall</h4>
-                                    <span class="blog_meta">By admin | Apr 05, 2022</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Letters -->
-            <div class="newsletter">
-                <div class="container">
-                    <div class="row ">
-                        <div class="col-lg-6">
-                            <div class="newsletter_text d-flex flex-column justify-content-center align-items-md-center text-center align-items-lg-center">
-                                <h4>Newsletter</h4>
-                                <p>Subscribe to our newslettr and get 20% off your first purchase</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <form action="" method="post">
-                                <div class="newsletter_text d-flex justify-content-center align-items-md-center text-center align-items-lg-center">
-                                    <input type="email" id="newsletter_email" placeholder="Your email" required>
-                                    <button id="newsletter_submit">Subscribe</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- footer -->
-            <div class="footer">
-                <div class="footer-widgets-area">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12 text-center">
-                                <div class="footer-menu-area">
-                                    <ul class="footer-menu">
-                                      <li class="menu-item"> <a
-                                        href="./pages/shop/shop.html"
-                                        
-                                        rel="noopener noreferrer"
-                                        >shop</a
-                                      ></li>
-                                      <li class="menu-item">
-                                        <a
-                                        href="./pages/siteMap/siteMap.html"
-                                        
-                                        rel="noopener noreferrer"
-                                        >site map</a
-                                      >
-                                      </li>
-                                      <li class="menu-item">
-                                        <a
-                                        href="./pages/aboutUs/index.html"
-                                        
-                                        rel="noopener noreferrer"
-                                        >about us</a
-                                      >
-                                      </li>
-                                      <li class="menu-item">
-                                        <a
-                                        href="./pages/blog/blog1/index.html"
-                                        
-                                        rel="noopener noreferrer"
-                                        >blog</a
-                                      >
-                                      </li>
-                                      <li class="menu-item">
-                                        <a
-                                        href="./pages/contactUs/contactUs.html"
-                                        
-                                        rel="noopener noreferrer"
-                                        >contact</a
-                                      >
-                                      </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="footer-copy-right d-flex align-items-center flex-wrap">
-                    <div class="item-copy-right">
-                        <ul class="socials">
-                            <li class="social-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                            <li class="social-item"><a href="#"><i class="fab fa-linkedin"></i></i></a></li>
-                            <li class="social-item"><a href="#"><i class="fab fa-instagram-square"></i></i></a></li>
-                            <li class="social-item"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="item-copy-right">
-                        <div class="copy-right-txt">Copyright © 2022 Ecommerce.</div>
-                    </div>
-                    <div class="item-copy-right">
-                        <div class="payment-icon">
-                            <img src="./assets/image/payment_icon_1.png" alt="" srcset="">
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
 
         </div>
+      </div>
+      <div class="footer-copy-right d-flex align-items-center flex-wrap">
+        <div class="item-copy-right">
+          <ul class="socials">
+            <li class="social-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+            <li class="social-item"><a href="#"><i class="fab fa-linkedin"></i></i></a></li>
+            <li class="social-item"><a href="#"><i class="fab fa-instagram-square"></i></i></a></li>
+            <li class="social-item"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+          </ul>
+        </div>
+        <div class="item-copy-right">
+          <div class="copy-right-txt">Copyright © 2022 Ecommerce.</div>
+        </div>
+        <div class="item-copy-right">
+          <div class="payment-icon">
+            <img src="./assets/image/payment_icon_1.png" alt="" srcset="">
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="./javascript/javascript.js"></script>
-        <script type="module" src="./javascript/home.js"></script>
-        <script>
-            AOS.init();
-        </script>
-        <script type="module" src="./javascript/cart.js"></script>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="./javascript/javascript.js"></script>
+  <script type="module" src="./javascript/home.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script type="module" src="./javascript/cart.js"></script>
 </body>
 
 </html>
