@@ -26,7 +26,7 @@ export const allProduct = [
   },
   {
     id: 3,
-    img: "https://censor.vn/wp-content/uploads/2022/03/1-ao-hoodie-essentials-beige-1977-hoodie-300x240.webp",
+    img: "../../assets/image/Crew.jpg",
     name: "Amirilo Logo Check Crew Yellow",
     price: 120,
     bestSaler: true,

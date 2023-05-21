@@ -140,16 +140,15 @@ function displayCart() {
             <td>
                 <div class="qty_input_wrapper">
                     <i class="fa-solid fa-minus"></i>
-                    <input class="w-25 pl-1" class="qtyInput " value="${
-                      cartItems[i].incart
-                    }" step="1" min="1" type="number" size="30">
+                    <input class="w-25 pl-1" class="qtyInput " value="${cartItems[i].incart
+        }" step="1" min="1" type="number" size="30">
                     <i class="fa-solid fa-plus"></i>
                 </div>
             </td>
             <td>
                 <h5 class="total">${formatter.format(
-                  cartItems[i].price * cartItems[i].incart
-                )}</h5>
+          cartItems[i].price * cartItems[i].incart
+        )}</h5>
             </td>
         </tr>
       `;
@@ -194,3 +193,10 @@ $(document).ready(function () {
 });
 onLoadCartNumbers();
 displayCart();
+
+
+var button = document.querySelector('.btn-primary');
+console.log(button);
+button.addEventListener('click', function () {
+  console.log('aaaa')
+})

@@ -1,7 +1,7 @@
- const allProduct = [
+const allProduct = [
   {
     id: 1,
-    img: "https://preview.colorlib.com/theme/coloshop/images/xproduct_1.png.pagespeed.ic.DvPBG5vxas.webp",
+    img: "https://sneakerdaily.vn/wp-content/uploads/2022/11/ao-sweater-fear-of-god-essentials-knit-concrete.png",
     name: "FEAR OF GOD FOG ESSENTIALS",
     price: "520",
     sale: "-$20%",
@@ -24,7 +24,7 @@
   },
   {
     id: 3,
-    img: "https://preview.colorlib.com/theme/coloshop/images/xproduct_3.png.pagespeed.ic.jCfub0gA7s.webp",
+    img: "../../assets/image/Crew.jpg",
     name: "Amirilo Logo Check Crew Yellow",
     price: "120",
     bestSaler: true,
@@ -35,7 +35,7 @@
   },
   {
     id: 4,
-    img: "https://preview.colorlib.com/theme/coloshop/images/xproduct_4.png.pagespeed.ic.WBUe9pni_n.webp",
+    img: "https://censor.vn/wp-content/uploads/2022/09/1-ao-fear-of-god-essentials-t-shirt-coral-300x240.jpg",
     name: "DYMO LabelWriter 450 Turbo Thermal Label Printer",
     price: "410",
     new: true,
@@ -46,7 +46,7 @@
   },
   {
     id: 5,
-    img: "https://preview.colorlib.com/theme/coloshop/images/xproduct_5.png.pagespeed.ic.qi-sJ2HPdI.webp",
+    img: "https://censor.vn/wp-content/uploads/2022/06/1-ao-fear-of-god-essentials-ls-polo-stretch-limo-300x240.jpg",
     name: "Annanas",
     price: "180",
     new: true,
@@ -58,7 +58,7 @@
   },
   {
     id: 6,
-    img: "https://preview.colorlib.com/theme/coloshop/images/xproduct_6.png.pagespeed.ic.zZ9BU77Jfy.webp",
+    img: "https://www.chanel.com/images//t_one/t_fashion9//b_rgb:F7F7F7,e_brightness:-3/q_auto:good,f_auto,fl_lossy,dpr_1.2/w_620/square-eyeglasses-brown-tortoise-grey-acetate-acetate-packshot-default-a75275x08101v1727-9522086805534.jpg",
     name: "Glasses",
     price: "120",
     bestSaler: true,
@@ -69,7 +69,7 @@
   },
   {
     id: 7,
-    img: "https://preview.colorlib.com/theme/coloshop/images/xproduct_8.png.pagespeed.ic.zX5uOkWPYV.webp",
+    img: "../../assets/image/wallet.jpg",
     name: "Wallet",
     price: "320",
     isSale: true,
@@ -80,7 +80,7 @@
   },
   {
     id: 8,
-    img: "https://preview.colorlib.com/theme/coloshop/images/xproduct_9.png.pagespeed.ic.I5FJ0ewNHX.webp",
+    img: "https://sneakerdaily.vn/wp-content/uploads/2023/05/ao-khoac-travis-scott-x-jordan-varsity-antique-brown-do4104-256-1.png",
     name: "Cadigan",
     price: "640",
     bestSaler: true,
@@ -112,7 +112,7 @@
   },
   {
     id: 11,
-    img: "https://preview.colorlib.com/theme/coloshop/images/xproduct_10.png.pagespeed.ic.69mYA3FDZH.webp",
+    img: "../../assets/image/wallet.jpg",
     name: "Silt LV",
     price: "520",
     sale: "30%",
@@ -131,4 +131,4 @@
   },
 ];
 
-localStorage.setItem("Products",JSON.stringify(allProduct));
+localStorage.setItem("Products", JSON.stringify(allProduct));
