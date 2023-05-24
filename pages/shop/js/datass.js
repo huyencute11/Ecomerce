@@ -24,7 +24,7 @@ const allProduct = [
   },
   {
     id: 3,
-    img: "../../assets/image/Crew.jpg",
+    img: "https://cdn.clothbase.com/uploads/d8401e3a-33fa-4586-8d9b-9ca8e8653700/202342M213075_2.jpg",
     name: "Amirilo Logo Check Crew Yellow",
     price: "120",
     bestSaler: true,
@@ -69,7 +69,7 @@ const allProduct = [
   },
   {
     id: 7,
-    img: "../../assets/image/wallet.jpg",
+    img: "https://lzd-img-global.slatic.net/g/p/3232c0afd289a41f4a9ba868f12d78c9.jpg",
     name: "Wallet",
     price: "320",
     isSale: true,
@@ -112,7 +112,7 @@ const allProduct = [
   },
   {
     id: 11,
-    img: "../../assets/image/wallet.jpg",
+    img: "https://www.chanel.com/images//t_one//t_fashioncommercial/q_auto:good,f_auto,fl_lossy,dpr_1.2/w_620/classic-small-flap-wallet-black-lambskin-gold-tone-metal-lambskin-gold-tone-metal-packshot-default-ap0231y01295c3906-9522293047326.jpg",
     name: "Silt LV",
     price: "520",
     sale: "30%",

@@ -26,7 +26,8 @@ export const allProduct = [
   },
   {
     id: 3,
-    img: "../../assets/image/Crew.jpg",
+    // img: "https://demo.shrimpthemes.com/1/parlo/wp-content/uploads/2019/03/product_10-300x300.png",
+    img: "https://cdn.clothbase.com/uploads/d8401e3a-33fa-4586-8d9b-9ca8e8653700/202342M213075_2.jpg",
     name: "Amirilo Logo Check Crew Yellow",
     price: 120,
     bestSaler: true,
